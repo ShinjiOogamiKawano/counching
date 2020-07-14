@@ -1,0 +1,24 @@
+{
+  "name": "counching",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.4.0",
+    "@nuxtjs/style-resources": "1.0.0",
+    "node-sass": "4.14.1",
+    "nuxt": "^2.12.2",
+    "nuxt-buefy": "0.3.31",
+    "reqlim": "^0.0.0",
+    "sass-loader": "9.0.2"
+  },
+  "keywords": []
+}
